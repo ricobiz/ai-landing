@@ -1,2 +1,3 @@
 # ai-landing
-Created by RepoPatchBot pipeline
+
+A project that utilizes AI to create landing pages.
