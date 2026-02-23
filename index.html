@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Faster with AI</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0a0a0f;
+            color: white;
+            scroll-behavior: smooth;
+        }
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+            animation: fadeIn 1s;
+        }
+        .hero h1 {
+            font-size: 2.5em;
+            color: #3b82f6;
+        }
+        .cta {
+            background-color: #3b82f6;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .cta:hover {
+            background-color: #1e40af;
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+            padding: 50px 20px;
+        }
+        .feature {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            width: 30%;
+            animation: fadeIn 1s;
+        }
+        .testimonial {
+            text-align: center;
+            padding: 50px 20px;
+            font-style: italic;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1a1a1f;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @media (max-width: 768px) {
+            .features {
+                flex-direction: column;
+                align-items: center;
+            }
+            .feature {
+                width: 80%;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <h1>Learn Anything 10x Faster with AI</h1>
+        <p>Unlock your potential with our innovative AI tools.</p>
+        <button class="cta">Start Free</button>
+    </div>
+    <div class="features">
+        <div class="feature">
+            <h2>🧠 Smart Cards</h2>
+            <p>Intelligent learning tools at your fingertips.</p>
+        </div>
+        <div class="feature">
+            <h2>⚡ Instant Review</h2>
+            <p>Get instant feedback to enhance your learning.</p>
+        </div>
+        <div class="feature">
+            <h2>📈 Progress Tracking</h2>
+            <p>Monitor your growth and stay motivated.</p>
+        </div>
+    </div>
+    <div class="testimonial">
+        <p>“This platform has transformed the way I learn!” - Happy User</p>
+    </div>
+    <footer>
+        <p>&copy; 2026 Learn Faster. All rights reserved.</p>
+    </footer>
+</body>
+</html>
